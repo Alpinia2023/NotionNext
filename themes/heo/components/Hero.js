@@ -245,7 +245,7 @@ function TopGroup(props) {
                   priority={index === 0}
                   className='h-24 object-cover'
                   alt={p?.title}
-                  src={siteInfo?.pageCover}
+                  src={p?.pageCoverThumbnail || siteInfo?.pageCover}
                 />
                 <div className='group-hover:text-indigo-600 dark:group-hover:text-yellow-600 line-clamp-2 overflow-hidden m-2 font-semibold'>
                   {p?.title}
