@@ -41,8 +41,10 @@ export default function TouchMeCard() {
             <div
               className='absolute left-0 top-0 w-full h-full'
               style={{
-                background:
-                  'url(https://nav.qazz.site/other/wxscan.png) center center no-repeat'
+                background: 'url(https://nav.qazz.site/other/wxscan.png)',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'round',
+                borderRadius: '10px'
               }}></div>
           </div>
         }
