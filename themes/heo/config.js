@@ -115,9 +115,9 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
+  HEO_SOCIAL_CARD_TITLE_1: '微信公众号',
+  HEO_SOCIAL_CARD_TITLE_2: '快人一步获取最新文章',
+  HEO_SOCIAL_CARD_TITLE_3: '扫一扫快速订阅',
   HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
 
   // 底部统计面板文案
