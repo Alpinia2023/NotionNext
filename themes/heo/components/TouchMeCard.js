@@ -32,11 +32,19 @@ export default function TouchMeCard() {
           </div>
         }
         backContent={
-          <Link href={siteConfig('HEO_SOCIAL_CARD_URL', null, CONFIG)}>
-            <div className='font-[1000] text-xl h-full'>
-              {siteConfig('HEO_SOCIAL_CARD_TITLE_3', null, CONFIG)}
-            </div>
-          </Link>
+          // <Link href={siteConfig('HEO_SOCIAL_CARD_URL', null, CONFIG)}>
+          //   <div className='font-[1000] text-xl h-full'>
+          //     {siteConfig('HEO_SOCIAL_CARD_TITLE_3', null, CONFIG)}
+          //   </div>
+          // </Link>
+          <div className='h-full'>
+            <div
+              className='absolute left-0 top-0 w-full h-full'
+              style={{
+                background:
+                  'url(https://nav.qazz.site/other/wxscan.png) center center no-repeat'
+              }}></div>
+          </div>
         }
       />
     </div>
